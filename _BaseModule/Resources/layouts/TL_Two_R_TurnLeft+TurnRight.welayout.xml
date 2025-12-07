@@ -1,0 +1,58 @@
+<WELayout>
+  <self itemName="Two_Left_Low">
+    <transform alignment="Left" arrayAxisOrder="XYZ">
+      <offsetPosition x="-0.0100000165" y="2.59" z="0.32" />
+      <offsetRotation x="-0" y="0" z="90" />
+      <scale x="0.29" y="0.29" z="1" />
+      <mustDraw>1</mustDraw>
+      <instanceCount>-1</instanceCount>
+      <arrayInstances x="1" y="1" z="1" />
+      <arraySpacing x="0" y="0" z="0" />
+    </transform>
+    <imageMesh atlas="baipinDTL:Traffic">
+      <mesh></mesh>
+      <image>Traffic light arrow</image>
+    </imageMesh>
+    <defaultStyle>
+      <color>FFFFFFFF</color>
+      <emissiveColor>FFFFFFFF</emissiveColor>
+      <metallic>0</metallic>
+      <smoothness>0</smoothness>
+      <emissiveIntensity>0</emissiveIntensity>
+      <emissiveExposureWeight>0</emissiveExposureWeight>
+      <coatStrength>0</coatStrength>
+      <colorMask1>FFFFFF</colorMask1>
+      <colorMask2>FFFFFF</colorMask2>
+      <colorMask3>FFFFFF</colorMask3>
+    </defaultStyle>
+  </self>
+  <children>
+    <self itemName="Two_Left_High">
+      <transform alignment="Left" arrayAxisOrder="XYZ">
+        <offsetPosition x="3.53" y="-3.48" z="0.0500000045" />
+        <offsetRotation x="-0" y="0" z="179.999969" />
+        <scale x="0.33" y="0.33" z="1" />
+        <mustDraw>1</mustDraw>
+        <instanceCount>-1</instanceCount>
+        <arrayInstances x="1" y="1" z="1" />
+        <arraySpacing x="0" y="0" z="0" />
+      </transform>
+      <imageMesh atlas="baipinDTL:Traffic">
+        <mesh></mesh>
+        <image>Traffic light arrow</image>
+      </imageMesh>
+      <defaultStyle>
+        <color>FFFFFFFF</color>
+        <emissiveColor>FFFFFFFF</emissiveColor>
+        <metallic>0</metallic>
+        <smoothness>0</smoothness>
+        <emissiveIntensity>0</emissiveIntensity>
+        <emissiveExposureWeight>0</emissiveExposureWeight>
+        <coatStrength>0</coatStrength>
+        <colorMask1>FFFFFF</colorMask1>
+        <colorMask2>FFFFFF</colorMask2>
+        <colorMask3>FFFFFF</colorMask3>
+      </defaultStyle>
+    </self>
+  </children>
+</WELayout>

@@ -1,3 +1,21 @@
-This project can be used to generate modules for Write Everywhere (Cities Skylines 2 version). You can share text placement layouts (default and city-importable), atlases and fonts (beware the copyrights!).
+﻿## Instruction
 
-More instructions about how to use this project is under the _BaseModule folder. Don't forget renaming your project/solution after creating it from this template.
+Directional Traffic Lights based on Write Everywhere.
+
+## How to Use
+1️⃣Install "Write Everywhere" first.(See link below)  
+2️  Install this mod.
+3️⃣Open the Write Everywhere menu (CTRL + Shift + W). 
+4️⃣Click the traffic light you want to edit.  
+5️⃣Click Import layout from XML at root...  
+6️⃣Choose the puzzle-piece icon (Templates from mods).  
+7️⃣Search for the "baipinHongKongsigns" Mod.  
+8️⃣Select a layout and customize it to your liking.  
+
+## Customize and Save Signs
+1️⃣Select the root object → Save and Export as XML.  
+2️⃣Templates can be reused across cities and saves.  
+3️⃣All templates are stored locally so no re-import required.  
+
+## See also:
+[Hong Kong Signs Pack](https://mods.paradoxplaza.com/mods/125896/Windows)
