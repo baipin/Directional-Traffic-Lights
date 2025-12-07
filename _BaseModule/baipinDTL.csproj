@@ -21,10 +21,10 @@
     <Version>1.0.1</Version>
     <GameVersion>1.*</GameVersion>
     <ThumbnailPath>Properties/Thumbnail.png</ThumbnailPath>
-    <DisplayName>Directional Traffic Lights [Write Everywhere]</DisplayName>
-    <ShortDescription>Directional Traffic Lights based on Write Everywhere</ShortDescription>
+    <DisplayName>Directional and Static Traffic Lights [Write Everywhere]</DisplayName>
+    <ShortDescription>Directional and Static Traffic Lights based on Write Everywhere</ShortDescription>
     <ForumLink>https://forum.paradoxplaza.com/forum/threads/baipin-directional-traffic-lights-write-everywhere.1886294/</ForumLink>
-	  <GitHubLink>https://github.com/baipin/HongKongsigns</GitHubLink>
+	  <GitHubLink>https://github.com/baipin/Directional-Traffic-Lights</GitHubLink>
 	  <YoutubeLink></YoutubeLink>
 	  <KofiLink>https://ko-fi.com/baipin</KofiLink>
 	  <BMACLink>https://buymeacoffee.com/baipin</BMACLink>
@@ -91,6 +91,7 @@
 	<ItemGroup>
 		<None Include="$(ModPropsFile)" Link="Properties\Mod.props" />
 		<None Include="$(ModTargetsFile)" Link="Properties\Mod.targets" />
+		<None Include="Properties\PublishProfiles\PublishNewMod.pubxml.user" />
 	</ItemGroup>
 
   <ItemGroup>
@@ -116,8 +117,8 @@
       <AdditionalFilesToDeployLayouts Include="Resources\layouts\**\*.wedefault.xml" />
       <AdditionalFilesToDeployMeshes Include="Resources\objMeshes\**\*.obj" />
     </ItemGroup>
-    <Copy SourceFiles="@(AdditionalFilesToDeployAtlas)"		DestinationFiles="@(AdditionalFilesToDeployAtlas->'$(DeployDir)\atlases\%(RecursiveDir)%(Filename)%(Extension)')" />
-    <Copy SourceFiles="@(AdditionalFilesToDeployFonts)"		DestinationFiles="@(AdditionalFilesToDeployFonts->'$(DeployDir)\fonts\%(RecursiveDir)%(Filename)%(Extension)')" />
+    <Copy SourceFiles="@(AdditionalFilesToDeployAtlas)" DestinationFiles="@(AdditionalFilesToDeployAtlas->'$(DeployDir)\atlases\%(RecursiveDir)%(Filename)%(Extension)')" />
+    <Copy SourceFiles="@(AdditionalFilesToDeployFonts)" DestinationFiles="@(AdditionalFilesToDeployFonts->'$(DeployDir)\fonts\%(RecursiveDir)%(Filename)%(Extension)')" />
     <Copy SourceFiles="@(AdditionalFilesToDeployLayouts)" DestinationFiles="@(AdditionalFilesToDeployLayouts->'$(DeployDir)\layouts\%(RecursiveDir)%(Filename)%(Extension)')" />
     <Copy SourceFiles="@(AdditionalFilesToDeployMeshes)" DestinationFiles="@(AdditionalFilesToDeployMeshes->'$(DeployDir)\objMeshes\%(Filename)%(Extension)')" />
   </Target>

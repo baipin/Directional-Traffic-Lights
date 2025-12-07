@@ -1,6 +1,6 @@
 ﻿## Instruction
 
-Directional Traffic Lights based on Write Everywhere.
+Directional and Static Traffic Lights based on Write Everywhere.
 
 ## How to Use
 1️⃣Install "Write Everywhere" first.(See link below)  

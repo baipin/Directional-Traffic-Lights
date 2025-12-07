@@ -1,10 +1,10 @@
 <Publish>
   <ModId Value="127268" />
-  <DisplayName Value="Directional Traffic Lights [Write Everywhere]" />
-  <ShortDescription Value="Directional Traffic Lights based on Write Everywhere" />
+  <DisplayName Value="Directional and Static Traffic Lights [Write Everywhere]" />
+  <ShortDescription Value="Directional and Static Traffic Lights based on Write Everywhere" />
   <LongDescription>## Instruction
 
-Directional Traffic Lights based on Write Everywhere.
+Directional and Static Traffic Lights based on Write Everywhere.
 
 ## How to Use
 1️⃣Install "Write Everywhere" first.(See link below)  
@@ -33,6 +33,7 @@ Directional Traffic Lights based on Write Everywhere.
   <Screenshot Value="Screenshots\1.jpg" />
   <Screenshot Value="Screenshots\2.jpg" />
   <Screenshot Value="Screenshots\3.jpg" />
+  <Screenshot Value="Screenshots\4.jpg" />
   <Dependency Id="92908" ModVersion="" DisplayName="Write Everywhere" />
   <ExternalLink Type="github" Url="https://github.com/baipin/HongKongsigns" />
   <ExternalLink Type="kofi" Url="https://ko-fi.com/baipin" />
