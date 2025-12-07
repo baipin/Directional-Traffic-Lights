@@ -1,5 +1,5 @@
 <Publish>
-  <ModId Value="" />
+  <ModId Value="127268" />
   <DisplayName Value="Directional Traffic Lights [Write Everywhere]" />
   <ShortDescription Value="Directional Traffic Lights based on Write Everywhere" />
   <LongDescription>## Instruction
@@ -8,7 +8,7 @@ Directional Traffic Lights based on Write Everywhere.
 
 ## How to Use
 1️⃣Install "Write Everywhere" first.(See link below)  
-2️  Install this mod.
+2️⃣Install this mod.  
 3️⃣Open the Write Everywhere menu (CTRL + Shift + W). 
 4️⃣Click the traffic light you want to edit.  
 5️⃣Click Import layout from XML at root...  
@@ -24,11 +24,11 @@ Directional Traffic Lights based on Write Everywhere.
 ## See also:
 [Hong Kong Signs Pack](https://mods.paradoxplaza.com/mods/125896/Windows)</LongDescription>
   <Thumbnail Value="Properties/Thumbnail.png" />
-  <ForumLink Value="" />
-  <ModVersion Value="1.0.0" />
-  <GameVersion Value="1.5.*" />
-  <ChangeLog>#  v1.0.0
-First updated.</ChangeLog>
+  <ForumLink Value="https://forum.paradoxplaza.com/forum/threads/baipin-directional-traffic-lights-write-everywhere.1886294/" />
+  <ModVersion Value="1.0.1" />
+  <GameVersion Value="1.*" />
+  <ChangeLog>#  v1.0.1
+- Add forum link.</ChangeLog>
   <Tag Value="Code Mod" />
   <Screenshot Value="Screenshots\1.jpg" />
   <Screenshot Value="Screenshots\2.jpg" />

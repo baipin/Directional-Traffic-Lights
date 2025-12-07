@@ -4,7 +4,7 @@ Directional Traffic Lights based on Write Everywhere.
 
 ## How to Use
 1️⃣Install "Write Everywhere" first.(See link below)  
-2️  Install this mod.
+2️⃣Install this mod.  
 3️⃣Open the Write Everywhere menu (CTRL + Shift + W). 
 4️⃣Click the traffic light you want to edit.  
 5️⃣Click Import layout from XML at root...  
