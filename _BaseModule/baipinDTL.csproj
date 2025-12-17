@@ -18,8 +18,8 @@
   <PropertyGroup>
     <IsBelzontCommonsMod>false</IsBelzontCommonsMod>
     <ModId>127268</ModId>
-    <Version>1.0.1</Version>
-    <GameVersion>1.*</GameVersion>
+    <Version>1.0.2</Version>
+    <GameVersion>1.5.*</GameVersion>
     <ThumbnailPath>Properties/Thumbnail.png</ThumbnailPath>
     <DisplayName>Directional and Static Traffic Lights [Write Everywhere]</DisplayName>
     <ShortDescription>Directional and Static Traffic Lights based on Write Everywhere</ShortDescription>

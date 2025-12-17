@@ -9,11 +9,11 @@ Directional and Static Traffic Lights based on Write Everywhere.
 ## How to Use
 1️⃣Install "Write Everywhere" first.(See link below)  
 2️⃣Install this mod.  
-3️⃣Open the Write Everywhere menu (CTRL + Shift + W). 
+3️⃣Open the Write Everywhere menu (CTRL + Shift + W).  
 4️⃣Click the traffic light you want to edit.  
 5️⃣Click Import layout from XML at root...  
 6️⃣Choose the puzzle-piece icon (Templates from mods).  
-7️⃣Search for the "baipinHongKongsigns" Mod.  
+7️⃣Search for the "baipinDTL" Mod.  
 8️⃣Select a layout and customize it to your liking.  
 
 ## Customize and Save Signs
@@ -25,17 +25,19 @@ Directional and Static Traffic Lights based on Write Everywhere.
 [Hong Kong Signs Pack](https://mods.paradoxplaza.com/mods/125896/Windows)</LongDescription>
   <Thumbnail Value="Properties/Thumbnail.png" />
   <ForumLink Value="https://forum.paradoxplaza.com/forum/threads/baipin-directional-traffic-lights-write-everywhere.1886294/" />
-  <ModVersion Value="1.0.1" />
-  <GameVersion Value="1.*" />
-  <ChangeLog>#  v1.0.1
-- Add forum link.</ChangeLog>
+  <ModVersion Value="1.0.2" />
+  <GameVersion Value="1.5.*" />
+  <ChangeLog>#  v1.0.2
+- Now support Nothern American Style.
+- Add layouts for TurnLeft/Ahead+TurnLeft for right-side traffic lights and TurnRight/Ahead+TurnRight for left-side TL.</ChangeLog>
   <Tag Value="Code Mod" />
   <Screenshot Value="Screenshots\1.jpg" />
   <Screenshot Value="Screenshots\2.jpg" />
   <Screenshot Value="Screenshots\3.jpg" />
   <Screenshot Value="Screenshots\4.jpg" />
+  <Screenshot Value="Screenshots\5.jpg" />
   <Dependency Id="92908" ModVersion="" DisplayName="Write Everywhere" />
-  <ExternalLink Type="github" Url="https://github.com/baipin/HongKongsigns" />
+  <ExternalLink Type="github" Url="https://github.com/baipin/Directional-Traffic-Lights" />
   <ExternalLink Type="kofi" Url="https://ko-fi.com/baipin" />
   <ExternalLink Type="buymeacoffee" Url="https://buymeacoffee.com/baipin" />
 </Publish>
